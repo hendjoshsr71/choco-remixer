@@ -1,6 +1,6 @@
 personal-packages*.xml
-config.xml
+#config.xml
 repo-move.xml
-internalized.xml
-download.xml
+#internalized.xml
+#download.xml
 *.nupkg
