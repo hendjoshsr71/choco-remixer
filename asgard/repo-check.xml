@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+
+<toInternalize>
+    <!-- Add package ids here for repoCheck -->
+    <id>7zip.install</id>
+    <id>notepadplusplus.install</id>
+    <id>adobereader</id>
+    <id>firefox</id>
+    <id>microsoft-teams.install</id>
+    <id>python3</id>
+    <id>git.install</id>
+    <id>vscode.install</id>
+    <id>wireshark</id>
+    <id>vlc.install</id>
+    <id>microsoft-windows-terminal</id>
+    <id>chocolateygui</id>
+    <id>brave</id>
+    <id>keepass.install</id>
+    <id>irfanview</id>
+    <id>signal</id>
+    <id>bitwarden</id>
+    <id>irfanviewplugins</id>
+    <id>discord.install</id>
+    <id>steam</id>
+    <id>handbrake.install</id>
+    <id>onedrive</id>
+    <!-- <id>visualstudio2022community</id> -->
+    <id>git-credential-manager-for-windows</id>
+    <id>bleachbit.install</id>
+    <!-- <id>displaylink</id> -->
+    <!-- <id>gitkraken</id> -->
+    <!-- <id>vscode-python</id> -->
+    <id>protonvpn</id>
+    <id>protondrive</id>
+    <id>protonpass</id>
+    <id>protonmail</id>
+    <id>kicad</id>
+    <id>betaflight-configurator</id>
+    <!-- <id>missionplanner</id> -->
+    <id>expresslrs-configurator</id>
+    <id>bambustudio</id>
+    <id>wsl2</id>
+    <!-- <id>wsl-ubuntu-2204</id> -->
+
+    <!-- Not Currently Implemented in packages.xml -->
+    <!-- Mission planner NuPkg should be changed to use MSI? -->
+    <id>missionplanner</id>
+    <id>visualstudio2022community</id>
+    <id>displaylink</id>
+
+    <!-- Gitkraken package on chocolatey has the wrong checksum embedded into it -->
+    <!--<id>gitkraken</id> -->
+    <id>vscode-python</id>
+    <id>wsl-ubuntu-2204</id>
+
+    <!-- Add package to Ansible configuration -->
+    <id>putty.install</id>
+    <id>adb</id>
+    <id>nexus-repository</id>
+    <id>veracrypt</id>
+    <id>installroot</id>
+    <id>nvidia-display-driver</id>
+    <id>skype</id>
+    <id>slack</id>
+
+    <id>lenovo-thinkvantage-system-update</id>
+
+    <!-- Chekc if this office version works for me -->
+    <!-- <id>Office365ProPlus</id> -->
+
+    <!-- Less used packages maybe add later -->
+
+    <!-- <id>yubico-authenticator</id> -->
+    <!-- <id>cygwin</id> -->
+
+</toInternalize>

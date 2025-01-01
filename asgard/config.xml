@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<options>
+	<!-- Local directory where packages are searched for -->
+	<searchDir>C:\Users\hendj\Choco_Downloads\internalized_Package_Store</searchDir>
+	<!-- Local directory where the internalization actually happens -->
+	<workDir>C:\Users\hendj\Choco_Downloads\internalization_process_work</workDir>
+
+	<!-- ProGet drop path -->
+	<useDropPath>no</useDropPath>
+	<!-- Directory that is your ProGet drop path -->
+	<dropPath>C:\path\to\droppath</dropPath>
+	<!-- Yes/No if directory should be empty -->
+	<dropEmpty>no</dropEmpty>
+	<!-- Yes/No if internal packages should be dropped -->
+	<dropInternal>yes</dropInternal>
+
+
+	<!-- Yes/No to automatically filling out internalized package versions -->
+	<writePerPkgs>yes</writePerPkgs>
+
+	<!-- Yes/No automatic pushing internalized packages -->
+	<pushPkgs>yes</pushPkgs>
+	<!-- Url to push packages too -->
+	<pushURL>http://localhost:8081/repository/chocolatey-hosted/</pushURL>
+
+	<!-- Nexus only -->
+	<!-- Check if packages ids listed in toInternalize are out of date in the private repo, and download them to be internalized -->
+	<repoCheck>yes</repoCheck>
+	<!-- specify if the Repack should be skipped  -->
+	<skipRepack>no</skipRepack>
+	<!-- publicRepoURL should normally not need to be changed -->
+	<publicRepoURL>https://community.chocolatey.org/api/v2/</publicRepoURL>
+	<!-- URL of your private feed -->
+	<privateRepoURL>http://localhost:8081/repository/chocolatey-group/</privateRepoURL>
+	<!-- specify credentials if needed; format user:pass ; Otherwise if no authentication, put in no; can also specify in params -->
+	<privateRepoCreds>no</privateRepoCreds>
+
+	<!-- Nexus only -->
+	<!-- Check the packages on a proxy repository, and either internalize them or push already internal packages to the moveToRepo -->
+	<repoMove>no</repoMove>
+	<proxyRepoURL>http://localhost:8081/repository/chocolatey.org-proxy/</proxyRepoURL>
+	<moveToRepoURL>http://localhost:8081/repository/chocolatey-hosted/</moveToRepoURL>
+	<!-- specify credentials if needed; format user:pass ; Otherwise if no authentication, put in no; can also specify in params -->
+	<proxyRepoCreds>no</proxyRepoCreds>
+
+	<!-- Attempt to write out the the old and the new version of the package | option is yes or no -->
+	<writeVersion>yes</writeVersion>
+
+	<!-- Set a locale to use for downloading locale-specific installers (e.g. Firefox). Defaults to en-US if not set -->
+	<locale>en-US</locale>
+</options>
