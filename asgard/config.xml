@@ -22,7 +22,7 @@
 	<!-- Yes/No automatic pushing internalized packages -->
 	<pushPkgs>yes</pushPkgs>
 	<!-- Url to push packages too -->
-	<pushURL>http://localhost:8081/repository/chocolatey-hosted/</pushURL>
+	<pushURL>http://192.168.1.114:8081/repository/chocolatey-hosted/</pushURL>
 
 	<!-- Nexus only -->
 	<!-- Check if packages ids listed in toInternalize are out of date in the private repo, and download them to be internalized -->
@@ -32,15 +32,15 @@
 	<!-- publicRepoURL should normally not need to be changed -->
 	<publicRepoURL>https://community.chocolatey.org/api/v2/</publicRepoURL>
 	<!-- URL of your private feed -->
-	<privateRepoURL>http://localhost:8081/repository/chocolatey-group/</privateRepoURL>
+	<privateRepoURL>http://192.168.1.114:8081/repository/chocolatey-group/</privateRepoURL>
 	<!-- specify credentials if needed; format user:pass ; Otherwise if no authentication, put in no; can also specify in params -->
 	<privateRepoCreds>no</privateRepoCreds>
 
 	<!-- Nexus only -->
 	<!-- Check the packages on a proxy repository, and either internalize them or push already internal packages to the moveToRepo -->
 	<repoMove>no</repoMove>
-	<proxyRepoURL>http://localhost:8081/repository/chocolatey.org-proxy/</proxyRepoURL>
-	<moveToRepoURL>http://localhost:8081/repository/chocolatey-hosted/</moveToRepoURL>
+	<proxyRepoURL>http://192.168.1.114:8081/repository/chocolatey.org-proxy/</proxyRepoURL>
+	<moveToRepoURL>http://192.168.1.114:8081/repository/chocolatey-hosted/</moveToRepoURL>
 	<!-- specify credentials if needed; format user:pass ; Otherwise if no authentication, put in no; can also specify in params -->
 	<proxyRepoCreds>no</proxyRepoCreds>
 
