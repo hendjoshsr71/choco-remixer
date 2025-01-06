@@ -63,7 +63,9 @@
     <id>skype</id>
     <id>slack</id>
 
-    <id>lenovo-thinkvantage-system-update</id>
+  <!--  THIS package is something old and not useful
+   I want the Lenovo Commercial Vantage Program -->
+    <!-- <id>lenovo-thinkvantage-system-update</id> -->
 
     <!-- Chekc if this office version works for me -->
     <!-- <id>Office365ProPlus</id> -->
