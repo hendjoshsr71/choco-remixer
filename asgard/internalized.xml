@@ -2,14 +2,8 @@
 <!-- This will be automatically filled as you internalize more packages assuming that  -->
 <!-- Add the id and version of any packages that you already have manually internalized and put in your local repo -->
 <internalized>
-  <pkg id="example-package-id">
-    <version>0.0.0.0</version>
-  </pkg>
   <pkg id="adb">
     <version>35.0.2</version>
-  </pkg>
-  <pkg id="nexus-repository">
-    <version>3.71.0.6</version>
   </pkg>
   <pkg id="adobereader">
     <version>2024.5.20320</version>
@@ -25,21 +19,35 @@
   </pkg>
   <pkg id="discord.install">
     <version>1.0.9175</version>
+    <version>1.0.9177</version>
   </pkg>
   <pkg id="expresslrs-configurator">
     <version>1.5.10</version>
   </pkg>
   <pkg id="firefox">
     <version>133.0.3</version>
+    <version>134.0.0</version>
   </pkg>
   <pkg id="git-credential-manager-for-windows">
     <version>1.20.0</version>
   </pkg>
+  <pkg id="installroot">
+    <version>5.6.0</version>
+  </pkg>
   <pkg id="kicad">
     <version>8.0.7</version>
   </pkg>
+  <pkg id="lenovo-thinkvantage-system-update">
+    <version>5.8.3.59</version>
+  </pkg>
   <pkg id="microsoft-teams.install">
     <version>1.7.0.33761</version>
+  </pkg>
+  <pkg id="nexus-repository">
+    <version>3.71.0.6</version>
+  </pkg>
+  <pkg id="nvidia-display-driver">
+    <version>566.36.0.20241208</version>
   </pkg>
   <pkg id="onedrive">
     <version>24.226.1110.4</version>
@@ -47,26 +55,15 @@
   <pkg id="protondrive">
     <version>1.7.11</version>
   </pkg>
+  <pkg id="protonpass">
+    <version>1.27.0</version>
+    <version>1.27.2</version>
+  </pkg>
   <pkg id="protonvpn">
     <version>3.4.3</version>
   </pkg>
   <pkg id="signal">
     <version>7.36.1</version>
-  </pkg>
-  <pkg id="steam">
-    <version>3.10.91.91241028</version>
-  </pkg>
-  <pkg id="vscode.install">
-    <version>1.96.2</version>
-  </pkg>
-  <pkg id="wsl2">
-    <version>2.3.26</version>
-  </pkg>
-  <pkg id="installroot">
-    <version>5.6.0</version>
-  </pkg>
-  <pkg id="nvidia-display-driver">
-    <version>566.36.0.20241208</version>
   </pkg>
   <pkg id="skype">
     <version>8.134.0.202</version>
@@ -74,13 +71,19 @@
   <pkg id="slack">
     <version>4.41.105</version>
   </pkg>
+  <pkg id="steam">
+    <version>3.10.91.91241028</version>
+  </pkg>
   <pkg id="veracrypt">
     <version>1.26.15</version>
   </pkg>
-  <pkg id="protonpass">
-    <version>1.27.0</version>
+  <pkg id="vscode.install">
+    <version>1.96.2</version>
   </pkg>
-  <pkg id="lenovo-thinkvantage-system-update">
-    <version>5.8.3.59</version>
+  <pkg id="wsl2">
+    <version>2.3.26</version>
+  </pkg>
+  <pkg id="gitkraken">
+    <version>10.6.0</version>
   </pkg>
 </internalized>

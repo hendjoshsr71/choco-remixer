@@ -48,8 +48,8 @@
     <id>visualstudio2022community</id>
     <id>displaylink</id>
 
-    <!-- Gitkraken package on chocolatey has the wrong checksum embedded into it -->
-    <!--<id>gitkraken</id> -->
+
+    <id>gitkraken</id>
     <id>vscode-python</id>
     <id>wsl-ubuntu-2204</id>
 

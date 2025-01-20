@@ -38,7 +38,7 @@
 
 	<!-- Nexus only -->
 	<!-- Check the packages on a proxy repository, and either internalize them or push already internal packages to the moveToRepo -->
-	<repoMove>no</repoMove>
+	<repoMove>yes</repoMove>
 	<proxyRepoURL>http://192.168.1.114:8081/repository/chocolatey.org-proxy/</proxyRepoURL>
 	<moveToRepoURL>http://192.168.1.114:8081/repository/chocolatey-hosted/</moveToRepoURL>
 	<!-- specify credentials if needed; format user:pass ; Otherwise if no authentication, put in no; can also specify in params -->
